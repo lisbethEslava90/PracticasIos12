@@ -54,14 +54,30 @@
 		0F1F96D22170F85000671557 /* IamRich */ = {
 			isa = PBXGroup;
 			children = (
+				0F1F96E62170F87000671557 /* StoryBoards */,
+				0F1F96E52170F86100671557 /* Controllers */,
 				0F1F96D32170F85000671557 /* AppDelegate.swift */,
-				0F1F96D52170F85000671557 /* ViewController.swift */,
-				0F1F96D72170F85000671557 /* Main.storyboard */,
 				0F1F96DA2170F85100671557 /* Assets.xcassets */,
-				0F1F96DC2170F85100671557 /* LaunchScreen.storyboard */,
 				0F1F96DF2170F85100671557 /* Info.plist */,
 			);
 			path = IamRich;
+			sourceTree = "<group>";
+		};
+		0F1F96E52170F86100671557 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F96D52170F85000671557 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F1F96E62170F87000671557 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F96D72170F85000671557 /* Main.storyboard */,
+				0F1F96DC2170F85100671557 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
